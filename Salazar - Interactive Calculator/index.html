@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Calculator</title>
+</head>
+<body>
+    <div class= "container">
+        <h1>SIMPLE CALCULATOR</h1>
+            <p>First Number: </p>
+            <input type="text" value="" id="firstInput" size="60px"> <br>
+            <p>Second Number: </p>
+            <input type="text" value="" id="secondInput" size="60px"> <br><br>
+
+            <input type="button" value="+" class="oper" onclick="addFunction()"> 
+            <input type="button" value="-" class="oper" onclick="subFunction()"> 
+            <input type="button" value="*" class="oper" onclick="mulFunction()"> 
+            <input type="button" value="/" class="oper" onclick="divFunction()"> <br><br>
+
+        <br><span id="result"></span><br><br>
+        <input type="button" value="Switch Mode" id="darkMode" onclick="darkMode()"><br><br>
+
+    </div>
+
+    <script src="interactiveCalcu.js"></script>
+</body>
+</html>
